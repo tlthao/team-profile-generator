@@ -86,6 +86,7 @@ const engineerInquiry = () => {
     ])
     .then((engineerResponse) => {
         const engineer = new Engineer(engineerResponse.id, engineerResponse.name, engineerResponse.email, engineerResponse.github)
+        
         team.push(engineer)
         switch(engineerResponse.addMember) {
             case 'Engineer':
@@ -131,6 +132,7 @@ const internInquiry = () => {
     ])
     .then((internResponse) => {
         const intern = new Intern(internResponse.id, internResponse.name, internResponse.email, internResponse.school)
+
         team.push(intern)
         switch(internResponse.addMember){
             case 'Engineer':
@@ -150,6 +152,8 @@ managerInquiry();
 
 function writeToFile(filename, data) {
     fs.writeFile(filename, data, (err) => {
+
+
         if(err) throw err;
         console.log('file saved')
     });
