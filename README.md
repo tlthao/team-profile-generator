@@ -27,7 +27,7 @@ HTML file will be stored in a folder which can then be opened in a nicely format
 <h1>Test<h1><br>
 <br>
 
-<h1>License<h1><br>
+<h1>License</h1><br>
 MIT License<br>
 
 Copyright (c) 2021 Tina Ly <br>
