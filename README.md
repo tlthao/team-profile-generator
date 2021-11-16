@@ -19,7 +19,8 @@ HTML file will be stored in a folder which can then be opened in a nicely format
 
 <h4>EXAMPLE PICTURE<h4><br>
   <br>
-![image](https://user-images.githubusercontent.com/50894080/141924007-352fe17d-12f7-40ca-81bd-e183fddb06f5.png)<br>
+https://user-images.githubusercontent.com/50894080/141924392-cb62a129-3c70-4f49-9d63-346b9c3dd912.jpg
+
 
 
 <h4>Video Demonstration<h4><br>
