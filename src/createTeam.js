@@ -7,10 +7,10 @@ const Intern = require('../lib/Intern')
 
 let createManagerBox = (Manager) => {
   return `
-  <div class="box m-1 shadow" style="width: 18rem; padding:2px">
+  <div class="box m-1 shadow rounded" style="width: 22rem">
     <div class='box-header'>
-      <h3 class="box-title">${Manager.getName()}</h3>
-      <h6 class="box-text"><i class="fa fa-coffee"></i> ${Manager.getRole()}</h6>
+      <h3 class="box-title fw-bolder p-4">${Manager.getName()}</h3>
+      <h6 class="box-text pl-3"><i class="fa fa-star-o"></i> ${Manager.getRole()}</h6>
     </div>
     <div class="box-body">
       <ul class="list-group list-group-flush">
@@ -25,10 +25,10 @@ let createManagerBox = (Manager) => {
 
 let createEngineerBox = (Engineer) => {
   return `
-  <div class="box m-1 shadow" style="width: 18rem">
+  <div class="box m-1 shadow rounded" style="width: 22rem">
     <div class='box-header'>
-      <h3 class="box-title">${Engineer.getName()}</h3>
-      <h6 class="box-text"><i class="fa fa-laptop"></i> ${Engineer.getRole()}</h6>
+      <h3 class="fw-bolder p-4 box-title">${Engineer.getName()}</h3>
+      <h6 class="box-text pl-3"><i class="fa fa-wrench"></i> ${Engineer.getRole()}</h6>
     </div>
     <div class="box-body">
       <ul class="list-group list-group-flush">
@@ -43,10 +43,10 @@ let createEngineerBox = (Engineer) => {
 
 let createInternBox = (Intern) => {
   return `
-  <div class="box m-1 shadow" style="width: 18rem">
+  <div class="box m-1 shadow rounded" style="width: 22rem">
     <div class='box-header'>
-      <h3 class="box-title">${Intern.getName()}</h3>
-      <h6 class="box-text"><i class="fa fa-graduation-cap"></i> ${Intern.getRole()}</h6>
+      <h3 class="fw-bolder p-4 box-title">${Intern.getName()}</h3>
+      <h6 class="box-text pl-3"><i class="fa fa-book"></i> ${Intern.getRole()}</h6>
     </div>
     <div class="box-body">
       <ul class="list-group list-group-flush">
@@ -92,12 +92,12 @@ return `
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <title>My Team</title>
+  <title>Team Generator</title>
 </head>
 <body>
-<div class="jumbotron jumbotron-fluid bg-warning">
+<div class="jumbotron jumbotron-fluid bg-primary rounded">
   <div class="container">
-    <h1 class="display-4 text-center">My Team</h1>
+    <h1 class="fw-bolder display-6 text-center ">My Team</h1>
   </div>
 </div>
 <div class="d-flex flex-row flex-wrap justify-content-center">
