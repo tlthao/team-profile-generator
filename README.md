@@ -1,7 +1,7 @@
 # Team Profile Generator
 
 <h1>Description</h1><br>
-The Team Profile Generator is a node command line interface that allows a manager to input information about each team member of their team. This will display the team members in a webpage in HTML format.<br>
+The Team Profile Generator is a node command line interface that allows a manager to input information about each member of their team. This will display the team members in a webpage in HTML format.<br>
 
 <h1>Installation</h1><br>
 Open Bash or Terminal Window in correct repo<br>
