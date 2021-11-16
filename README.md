@@ -27,7 +27,7 @@ HTML file will be stored in a folder which can then be opened in a nicely format
 <h4>Video Demonstration<h4><br>
 https://watch.screencastify.com/v/4v9ADuOQMx4so114Bn9I
   
-<h1>Test<h1><br>
+<h1>Test</h1><br>
 <br>
 https://github.com/tlthao/team-profile-generator/blob/main/dist/index.html <br>
   
